@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    
+    font-family: Roboto, sans-serif;
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links{
+    color:white;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding :10px;
+    background-color: #1f2937;
+}
+
+.header-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding :10px 0;
+    background-color: #1f2937;
+}
+
+.hero-main{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+.hero-secondary{
+    color: #e5e7eb;
+    font-size: 18px;
+    max-width: 400px;
+    margin-bottom: 8px;
+    
+}
+
+.hero-image img{
+    height:auto;
+    width: 500px;
+    margin-left: 15px;
+    background-color: #e5e7eb;
+
+}
+
+.btnherosignup{
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* -- */
+.information{
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+
+.info {
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+/* -- */
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quotetext{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1f2937;
+    text-align: center;
+    max-width:600px;
+}
+
+.quoteauthor{
+    align-self: flex-end;
+}
+
+/* -- */
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-signup{
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    display: flex;
+    padding: 30px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.productsignup{
+    border: 2px solid white;
+}
+
+/* -- */
+
+.footer{
+    background-color: #1f2937;
+    color:white;
+    text-align: center;
+    padding: 5px;
+}
